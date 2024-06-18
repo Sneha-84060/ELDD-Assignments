@@ -9,4 +9,4 @@ copy:
 clean:
 	make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -C /home/user/linux/ M=`pwd` clean
 
-.phony: modules clean
+.phony: modules copy clean
