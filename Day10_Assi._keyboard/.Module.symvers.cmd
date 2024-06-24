@@ -1,0 +1,1 @@
+cmd_/home/user/Desktop/ClassWork/ELDD-Assignments/Day10_Assi._keyboard/Module.symvers :=  sed 's/ko$$/o/'  /home/user/Desktop/ClassWork/ELDD-Assignments/Day10_Assi._keyboard/modules.order | scripts/mod/modpost -m -a    -o /home/user/Desktop/ClassWork/ELDD-Assignments/Day10_Assi._keyboard/Module.symvers -e -i Module.symvers -T - 

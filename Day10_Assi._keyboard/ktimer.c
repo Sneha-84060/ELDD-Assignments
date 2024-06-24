@@ -15,7 +15,7 @@ void mytimer_function(struct timer_list *ptimer)
 	//count++;
 	printk(KERN_INFO "%s : mytimer_function\n", THIS_MODULE->name);
 
-	mod_timer(&mytimer, jiffies + ticks);
+//	mod_timer(&mytimer, jiffies + ticks);
 	outb(0xAE, KBD_CONTROL_REG);
 	printk(KERN_INFO " %s : mytimer_function : keyboard is enabled.\n", THIS_MODULE->name);
 

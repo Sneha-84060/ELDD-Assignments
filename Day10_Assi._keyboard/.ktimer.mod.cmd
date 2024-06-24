@@ -1,0 +1,1 @@
+cmd_/home/user/Desktop/ClassWork/ELDD-Assignments/Day10_Assi._keyboard/ktimer.mod := printf '%s\n'   ktimer.o | awk '!x[$$0]++ { print("/home/user/Desktop/ClassWork/ELDD-Assignments/Day10_Assi._keyboard/"$$0) }' > /home/user/Desktop/ClassWork/ELDD-Assignments/Day10_Assi._keyboard/ktimer.mod
